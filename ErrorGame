@@ -1,0 +1,13 @@
+ERROR player.js:259
+
+NOTICE Received connection from: 192.168.1.1
+/root/WTF-Adventure/server/js/game/entity/character/player/player.js:259
+        self.hitPoints.heal(amount);
+                       ^
+
+TypeError: self.hitPoints.heal is not a function
+    at Class.heal (/root/WTF-Adventure/server/js/game/entity/character/player/player.js:259:24)
+    at Timeout._onTimeout (/root/WTF-Adventure/server/js/game/entity/character/character.js:76:22)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
